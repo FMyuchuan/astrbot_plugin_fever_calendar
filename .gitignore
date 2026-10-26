@@ -1,0 +1,23 @@
+# 账号与本地状态
+*.session.json
+session.json
+state/
+.ssh/
+*.pem
+*.key
+
+# 导出与备份
+*.ics
+*.bak
+*.bak.*
+backup_*.json
+
+# 运行产物
+__pycache__/
+*.pyc
+data/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store

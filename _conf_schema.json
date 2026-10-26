@@ -1,0 +1,24 @@
+{
+  "allowed_users": {
+    "description": "允许使用插件的用户",
+    "type": "list",
+    "default": [],
+    "hint": "填发送者 ID（QQ 号等），留空表示所有人都能用——但每个人各自扫码登录自己的发烧账号，互相看不到对方的日历"
+  },
+  "default_reminder": {
+    "description": "默认提前提醒分钟数",
+    "type": "int",
+    "default": 15,
+    "hint": "新建日程没写 --remind 时使用"
+  },
+  "default_alarm": {
+    "description": "默认开启闹钟提醒",
+    "type": "bool",
+    "default": false
+  },
+  "default_countdown": {
+    "description": "默认开启倒计时提醒",
+    "type": "bool",
+    "default": false
+  }
+}

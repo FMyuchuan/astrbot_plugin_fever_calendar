@@ -1,0 +1,13 @@
+name: astrbot_plugin_fever_calendar
+display_name: 发烧云日历
+desc: 多用户的发烧云日历：每人登录自己的账号、各管各的日程，支持重复事件、单次实例、闹钟与倒计时提醒
+short_desc: 用聊天管理发烧云日历
+version: 0.5.0
+author: FMyuchuan
+astrbot_version: ">=4.9.2"
+support_platforms:
+  - aiocqhttp
+  - telegram
+  - lark
+  - qq_official
+repo: https://github.com/FMyuchuan/astrbot_plugin_fever_calendar
